@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>textField</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>&lt;#_textField#&gt; = [UITextField new];
+    &lt;#_textField#&gt;.placeholder = @"&lt;#string#&gt;";
+    &lt;#_textField#&gt;.textColor = QWColor;
+    &lt;#_textField#&gt;.font = [UIFont systemFontOfSize:&lt;#(CGFloat)#&gt;];
+    &lt;#_textField#&gt;.delegate = self;
+    &lt;#_textField#&gt;.returnKeyType = UIReturnKeyType;
+    &lt;#_textField#&gt;.keyboardType = &lt;#UIKeyboardType#&gt;;
+    [self.contentView addSubview:&lt;#_textField#&gt;];
+    [&lt;#_textField#&gt; makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo();
+        make.left.equalTo();
+    }];
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>178A5DB1-374F-49B7-8DFB-0324C7BAF3EF</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Initialize an object with UITextField.</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>"FR" UITextField object with _textField.</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

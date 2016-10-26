@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>LLL</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    &lt;#_label#&gt; = [UILabel new];
+    &lt;#_label#&gt;.numberOfLines = 0;
+    &lt;#_label#&gt;.font = [UIFont systemFontOfSize:&lt;#(CGFloat)#&gt;];
+    &lt;#_label#&gt;.textColor = QWColor;
+    [self.contentView addSubview:&lt;#_label#&gt;];
+    [&lt;#_label#&gt; makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo();
+        make.left.equalTo();
+    }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>EEEC8AC9-24B4-4231-B447-990406A0A780</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Initialize an object with UILabel.</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>"FR" UILabel object with _label.</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>botView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>self.bottomView = [[QWBottomOneButtonView alloc] initWithTitle:@"submit" target:self action:@selector(clickSubmit:)];
+    [self.view addSubview:self.bottomView];
+    [self.bottomView makeConstraints:^(MASConstraintMaker *make) {
+        make.left.and.right.and.bottom.equalTo(self.view);
+        make.height.equalTo(50);
+    }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C5F2FAC1-FD01-4527-8182-D9467A726683</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>create QWBottomView</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>create bottomView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
