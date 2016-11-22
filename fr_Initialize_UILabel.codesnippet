@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>    &lt;#_label#&gt; = [UILabel new];
     &lt;#_label#&gt;.numberOfLines = 0;
-    &lt;#_label#&gt;.font = [UIFont systemFontOfSize:&lt;#(CGFloat)#&gt;];
+    &lt;#_label#&gt;.font = LCFontOfSize(&lt;#f#&gt;);
     &lt;#_label#&gt;.textColor = LCColor;
     [self.contentView addSubview:&lt;#_label#&gt;];
     [&lt;#_label#&gt; makeConstraints:^(MASConstraintMaker *make) {
