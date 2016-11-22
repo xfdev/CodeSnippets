@@ -10,11 +10,11 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>UIView *line = [UIView new];
-    line.backgroundColor = QWColorBgLine;
+    line.backgroundColor = LCColorBgLine;
     [self.contentView addSubview:line];
     [line makeConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(self.contentView).offset(QWSpaceLeft);
-        make.right.equalTo(self.contentView).offset(QWSpaceRight);
+        make.left.equalTo(self.contentView).offset(LCSpaceLeft);
+        make.right.equalTo(self.contentView).offset(LCSpaceRight);
         make.bottom.equalTo(self.contentView);
         make.height.equalTo(1);
     }];</string>

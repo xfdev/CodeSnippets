@@ -11,8 +11,8 @@
 	<key>IDECodeSnippetContents</key>
 	<string>&lt;#_textField#&gt; = [UITextField new];
     &lt;#_textField#&gt;.placeholder = @"&lt;#string#&gt;";
-    &lt;#_textField#&gt;.textColor = QWColor;
-    &lt;#_textField#&gt;.font = [UIFont systemFontOfSize:&lt;#(CGFloat)#&gt;];
+    &lt;#_textField#&gt;.textColor = LCColor;
+    &lt;#_textField#&gt;.font = LCFontOfSize(&lt;#f#&gt;);
     &lt;#_textField#&gt;.delegate = self;
     &lt;#_textField#&gt;.returnKeyType = UIReturnKeyType;
     &lt;#_textField#&gt;.keyboardType = &lt;#UIKeyboardType#&gt;;
