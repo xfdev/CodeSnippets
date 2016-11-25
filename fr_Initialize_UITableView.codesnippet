@@ -18,13 +18,9 @@
     [self.view addSubview:self.tableView];
     
     [self.tableView registerClass:&lt;#(nullable Class)#&gt; forCellReuseIdentifier:&lt;#(nonnull NSString *)#&gt;];
-    
-    weakSelf(wSelf);
+
     [wSelf.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(wSelf.view.top);
-        make.left.equalTo(wSelf.view.left);
-        make.right.equalTo(wSelf.view.right);
-        make.bottom.equalTo(wSelf.view.bottom);
+        make.edges.equalTo(self.view);
     }];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>95E8975C-7853-4D55-96EA-8F3029E41E23</string>

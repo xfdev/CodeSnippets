@@ -20,8 +20,7 @@
     [&lt;#_textField#&gt; makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo();
         make.left.equalTo();
-    }];
-</string>
+    }];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>178A5DB1-374F-49B7-8DFB-0324C7BAF3EF</string>
 	<key>IDECodeSnippetLanguage</key>
