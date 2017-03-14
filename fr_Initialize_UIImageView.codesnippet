@@ -3,21 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ppi</string>
+	<string>iii</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, assign) NSInteger &lt;#integer#&gt;; // .</string>
+	<string>UIImageView *&lt;#imageView#&gt; = [UIImageView new];
+    &lt;#imageView#&gt;.image = [UIImage imageNamed:&lt;#(nonnull NSString *)#&gt;];
+    [self.contentView addSubview:&lt;#imageView#&gt;];
+    [&lt;#imageView#&gt; makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(self.contentView);
+        make.left.equalTo(self.contentView);
+    }];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>456FD45F-6CCB-4C32-A048-BDBC31BC2A4F</string>
+	<string>335B65CA-6D92-408F-913E-A9D215479342</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Add a property with NSInteger.</string>
+	<string>Initialize an object with UIImageView.</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>"FR" property assign NSInteger.</string>
+	<string>"FR" UIImageView object with _imageView.</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
