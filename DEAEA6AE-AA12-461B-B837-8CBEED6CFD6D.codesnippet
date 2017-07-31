@@ -3,28 +3,34 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>botButton</string>
+	<string>rrr</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>self.bottomView = [[LCBottomOneButtonView alloc] initWithTitle:@"submit" target:self action:@selector(clickSubmit:)];
-    [self.view addSubview:self.bottomView];
-    [self.bottomView makeConstraints:^(MASConstraintMaker *make) {
-        make.bottom.equalTo(self.view).offset(-10);
-        make.centerX.equalTo(self.view);
-        make.left.equalTo(self.view).offset(38);
-        make.height.equalTo(45);
+	<string>[self showHUDLabelTitle:@"请求中..."];
+    
+    NSDictionary *param = @{@"key" : @"value", @"key2" : @"value22"};
+    
+    [[LCHttpRequest sharedInstance] requestPost:LCRequest_Method_ param:param success:^(id responseObj) {
+        
+        [self hideHUDView];
+        NSLog(@"-----");
+        
+        
+    } failure:^(LCHttpError *error) {
+        
+        [self showHUDOnlyText:error.message];
     }];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C5F2FAC1-FD01-4527-8182-D9467A726683</string>
+	<string>DEAEA6AE-AA12-461B-B837-8CBEED6CFD6D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>create LCBottomView</string>
+	<string>Some httpRequest Method.</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>create bottomView</string>
+	<string>"FR" HttpRequest Method.</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
