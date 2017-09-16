@@ -9,16 +9,16 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-    [button setTitle:&lt;#(nullable NSString *)#&gt; forState:UIControlStateNormal];
-    button.titleLabel.font = LCFontOfSize(&lt;#f#&gt;);
-    [button setTitleColor:LCColor forState:UIControlStateNormal];
+	<string>UIButton *&lt;#button#&gt; = [UIButton buttonWithType:UIButtonTypeCustom];
+    [&lt;#button#&gt; setTitle:&lt;#(nullable NSString *)#&gt; forState:UIControlStateNormal];
+    &lt;#button#&gt;.titleLabel.font = LCFontOfSize(&lt;#f#&gt;);
+    [&lt;#button#&gt; setTitleColor:LCColor forState:UIControlStateNormal];
     
     
-    [button addTarget:self action:@selector(clickButton:) forControlEvents:UIControlEventTouchUpInside];
+    [&lt;#button#&gt; addTarget:self action:@selector(clickButton:) forControlEvents:UIControlEventTouchUpInside];
     
-    [self.contentView addSubview:button];
-    [button makeConstraints:^(MASConstraintMaker *make) {
+    [self.contentView addSubview:&lt;#button#&gt;];
+    [&lt;#button#&gt; makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo();
     }];</string>
 	<key>IDECodeSnippetIdentifier</key>
