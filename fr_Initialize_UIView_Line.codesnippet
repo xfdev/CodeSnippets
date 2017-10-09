@@ -9,10 +9,10 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UIView *line = [UIView new];
-    line.backgroundColor = LCColorBgLine;
-    [self.contentView addSubview:line];
-    [line makeConstraints:^(MASConstraintMaker *make) {
+	<string>UIView *&lt;#line#&gt; = [UIView new];
+    &lt;#line#&gt;.backgroundColor = LCColorBgLine;
+    [self.contentView addSubview:&lt;#line#&gt;];
+    [&lt;#line#&gt; makeConstraints:^(MASConstraintMaker *make) {
         make.left.equalTo(self.contentView).offset(LCSpaceLeft);
         make.right.equalTo(self.contentView).offset(LCSpaceRight);
         make.bottom.equalTo(self.contentView);
