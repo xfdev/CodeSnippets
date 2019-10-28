@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>button</string>
+	<string>btn</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
@@ -13,7 +13,6 @@
     [&lt;#button#&gt; setTitle:&lt;#(nullable NSString *)#&gt; forState:UIControlStateNormal];
     &lt;#button#&gt;.titleLabel.font = LCFontOfSize(&lt;#f#&gt;);
     [&lt;#button#&gt; setTitleColor:LCColor forState:UIControlStateNormal];
-    
     
     [&lt;#button#&gt; addTarget:self action:@selector(clickButton:) forControlEvents:UIControlEventTouchUpInside];
     
