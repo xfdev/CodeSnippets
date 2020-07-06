@@ -11,12 +11,12 @@
 	<key>IDECodeSnippetContents</key>
 	<string>    &lt;#_label#&gt; = [UILabel new];
     &lt;#_label#&gt;.numberOfLines = 0;
-    &lt;#_label#&gt;.font = LCFontOfSize(&lt;#f#&gt;);
-    &lt;#_label#&gt;.textColor = LCColor;
+    &lt;#_label#&gt;.font = FRFontOfSize(&lt;#f#&gt;);
+    &lt;#_label#&gt;.textColor = FRColor;
     [self.contentView addSubview:&lt;#_label#&gt;];
     [&lt;#_label#&gt; makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo();
-        make.left.equalTo();
+        make.leading.equalTo();
     }];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>EEEC8AC9-24B4-4231-B447-990406A0A780</string>

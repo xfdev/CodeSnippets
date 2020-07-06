@@ -13,8 +13,8 @@
     &lt;#line#&gt;.backgroundColor = LCColorBgLine;
     [self.contentView addSubview:&lt;#line#&gt;];
     [&lt;#line#&gt; makeConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(self.contentView).offset(LCSpaceLeft);
-        make.right.equalTo(self.contentView).offset(LCSpaceRight);
+        make.leading.equalTo(self.contentView).offset(LCSpaceLeft);
+        make.trailing.equalTo(self.contentView).offset(LCSpaceRight);
         make.bottom.equalTo(self.contentView);
         make.height.equalTo(1);
     }];</string>

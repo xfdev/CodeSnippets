@@ -11,8 +11,8 @@
 	<key>IDECodeSnippetContents</key>
 	<string>UIButton *&lt;#button#&gt; = [UIButton buttonWithType:UIButtonTypeCustom];
     [&lt;#button#&gt; setTitle:&lt;#(nullable NSString *)#&gt; forState:UIControlStateNormal];
-    &lt;#button#&gt;.titleLabel.font = LCFontOfSize(&lt;#f#&gt;);
-    [&lt;#button#&gt; setTitleColor:LCColor forState:UIControlStateNormal];
+    &lt;#button#&gt;.titleLabel.font = FRFontOfSize(&lt;#f#&gt;);
+    [&lt;#button#&gt; setTitleColor:FRColor forState:UIControlStateNormal];
     
     [&lt;#button#&gt; addTarget:self action:@selector(clickButton:) forControlEvents:UIControlEventTouchUpInside];
     

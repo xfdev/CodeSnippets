@@ -9,13 +9,13 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>self.bottomView = [[LCBottomOneButtonView alloc] initWithTitle:@"submit" target:self action:@selector(clickSubmit:)];
-    [self.view addSubview:self.bottomView];
-    [self.bottomView makeConstraints:^(MASConstraintMaker *make) {
-        make.bottom.equalTo(self.view).offset(-10);
+	<string>FRBottomButtonView *bottomView = [[FRBottomButtonView alloc] initWithTitle:@"submit" target:self action:@selector(clickSubmit)];
+    [self.view addSubview:bottomView];
+    [bottomView makeConstraints:^(MASConstraintMaker *make) {
+        make.bottomMargin.equalTo(self.view).offset(-30);
         make.centerX.equalTo(self.view);
-        make.left.equalTo(self.view).offset(38);
-        make.height.equalTo(45);
+        make.leadingMargin.equalTo(self.view).offset(16);
+        make.height.equalTo(50);
     }];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>C5F2FAC1-FD01-4527-8182-D9467A726683</string>

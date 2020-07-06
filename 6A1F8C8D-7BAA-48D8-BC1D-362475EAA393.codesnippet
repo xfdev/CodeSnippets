@@ -3,34 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>rrr</string>
+	<string>mmm</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[self showHUDLabelTitle:@"请求中..."];
-    
-    NSDictionary *param = @{@"key" : @"value", @"key2" : @"value22"};
-    
-    [[LCHttpRequest sharedInstance] requestPost:LCRequest_Method_ param:param success:^(id responseObj) {
-        
-        [self hideHUDView];
-        NSLog(@"-----");
-        
-        
-    } failure:^(LCHttpError *error) {
-        
-        [self showHUDOnlyText:error.message];
-    }];</string>
+	<string>#pragma mark - </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DEAEA6AE-AA12-461B-B837-8CBEED6CFD6D</string>
+	<string>6A1F8C8D-7BAA-48D8-BC1D-362475EAA393</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Some httpRequest Method.</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>"FR" HttpRequest Method.</string>
+	<string>"FR" pragma mark -</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

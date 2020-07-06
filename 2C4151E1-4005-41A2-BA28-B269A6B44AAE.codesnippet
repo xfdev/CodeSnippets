@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>bgScroll</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// 页面主画布
+    UIScrollView *bgScroll = [UIScrollView new];
+    bgScroll.backgroundColor = LCColorSystemClear;
+    bgScroll.alwaysBounceVertical = YES;
+    bgScroll.delegate = self;
+    [self addSubview:bgScroll];
+    [bgScroll makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self);
+    }];
+    UIView *contentView = [UIView new];
+    contentView.tag = 100;
+    [bgScroll addSubview:contentView];
+    [contentView makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(bgScroll);
+        make.width.equalTo(bgScroll);
+    }];
+    
+    [bgScroll addAutoKeyboardNotification];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2C4151E1-4005-41A2-BA28-B269A6B44AAE</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>create UIScrollView &amp;&amp; UIView</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>"FR" create UIScrollView bgView.</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -22,7 +22,7 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>-layoutSubviews Method.</string>
+	<string>&lt;layout&gt; -layoutSubviews Method.</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>"FR" -layoutSubviews Method.</string>
 	<key>IDECodeSnippetUserSnippet</key>
