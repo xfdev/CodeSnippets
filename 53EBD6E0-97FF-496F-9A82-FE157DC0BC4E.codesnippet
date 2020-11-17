@@ -13,7 +13,7 @@
 	<string>[self showHUDWaitingTitle:nil];
     
     NSDictionary *param = @{@"key" : @"value", @"key2" : @"value22"};
-    [FRHttpRequest requestPost:FRRequest_Method_user_login param:param success:^(id  _Nonnull responseObj) {
+    [FRHttpRequest requestPost:FRRequest_Method_Login param:param success:^(id  _Nonnull responseObj) {
         
         [self showHUDText:@"请求成功"];
         

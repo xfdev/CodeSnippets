@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>textField</string>
+	<string>textFieldFR</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
@@ -11,15 +11,15 @@
 	<key>IDECodeSnippetContents</key>
 	<string>&lt;#_textField#&gt; = [UITextField new];
     &lt;#_textField#&gt;.placeholder = @"&lt;#string#&gt;";
-    &lt;#_textField#&gt;.textColor = LCColor;
+    &lt;#_textField#&gt;.textColor = FRColor;
     &lt;#_textField#&gt;.font = LCFontOfSize(&lt;#f#&gt;);
     &lt;#_textField#&gt;.delegate = self;
-    &lt;#_textField#&gt;.returnKeyType = UIReturnKeyType;
     &lt;#_textField#&gt;.keyboardType = &lt;#UIKeyboardType#&gt;;
+    &lt;#_textField#&gt;.returnKeyType = UIReturnKeyType;
     [self.contentView addSubview:&lt;#_textField#&gt;];
     [&lt;#_textField#&gt; makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo();
-        make.leading.equalTo();
+        make.left.equalTo();
     }];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>178A5DB1-374F-49B7-8DFB-0324C7BAF3EF</string>

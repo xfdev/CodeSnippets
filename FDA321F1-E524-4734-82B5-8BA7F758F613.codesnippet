@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>textViewFR</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>&lt;#self.textView#&gt; = [[IQTextView alloc] init];
+    &lt;#self.textView#&gt;.placeholder = @"&lt;#string#&gt;";
+    &lt;#self.textView#&gt;.textColor = FRColor&lt;#333#&gt;;
+    &lt;#self.textView#&gt;.font = FRFontOfSize(&lt;#f#&gt;);
+    &lt;#self.textView#&gt;.delegate = self;
+//    self.textView.keyboardType = UIKeyboardTypeDefault;
+    &lt;#self.textView#&gt;.returnKeyType = UIReturnKeyDone;
+    [&lt;#self.textView#&gt; makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self.contentView).insets(UIEdgeInsetsMake(6, 16, 0, 16));
+        make.height.equalTo(100);
+//        make.top.equalTo();
+//        make.left.equalTo();
+//        make.right.equalTo();
+    }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>FDA321F1-E524-4734-82B5-8BA7F758F613</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>"FR" UITextView object with IQTextView.</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

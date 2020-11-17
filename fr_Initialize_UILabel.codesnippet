@@ -16,7 +16,7 @@
     [self.contentView addSubview:&lt;#_label#&gt;];
     [&lt;#_label#&gt; makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo();
-        make.leading.equalTo();
+        make.left.equalTo();
     }];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>EEEC8AC9-24B4-4231-B447-990406A0A780</string>

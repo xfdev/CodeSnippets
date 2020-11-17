@@ -14,7 +14,7 @@
     [self.contentView addSubview:&lt;#imageView#&gt;];
     [&lt;#imageView#&gt; makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(self.contentView);
-        make.leading.equalTo(self.contentView);
+        make.left.equalTo(self.contentView);
     }];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>335B65CA-6D92-408F-913E-A9D215479342</string>

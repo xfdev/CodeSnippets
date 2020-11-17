@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ppi</string>
+	<string>im</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, assign) NSInteger &lt;#integer#&gt;; // .</string>
+	<string>#import "&lt;#header#&gt;"</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>456FD45F-6CCB-4C32-A048-BDBC31BC2A4F</string>
+	<string>3F29D8CF-EA7E-42F4-9807-8A43C831A11B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Add a property with NSInteger.</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>"FR" property assign NSInteger.</string>
+	<string>"FR" #import Header File</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ppi</string>
+	<string>frenum</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, assign) NSInteger &lt;#integer#&gt;; // .</string>
+	<string>typedef NS_ENUM(NSInteger, FR&lt;#SomeType#&gt;) {
+    &lt;#FRSomeType#&gt;, // .
+};</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>456FD45F-6CCB-4C32-A048-BDBC31BC2A4F</string>
+	<string>A4C96751-7737-4BAC-A424-937F2BD38743</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Add a property with NSInteger.</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>"FR" property assign NSInteger.</string>
+	<string>"FR" typedef NS_ENUM(...)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -25,8 +25,7 @@
         make.edges.equalTo(bgScroll);
         make.width.equalTo(bgScroll);
     }];
-    
-    [bgScroll addAutoKeyboardNotification];</string>
+    </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>2C4151E1-4005-41A2-BA28-B269A6B44AAE</string>
 	<key>IDECodeSnippetLanguage</key>

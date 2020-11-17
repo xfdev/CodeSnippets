@@ -12,9 +12,9 @@
 	<string>FRBottomButtonView *bottomView = [[FRBottomButtonView alloc] initWithTitle:@"submit" target:self action:@selector(clickSubmit)];
     [self.view addSubview:bottomView];
     [bottomView makeConstraints:^(MASConstraintMaker *make) {
-        make.bottomMargin.equalTo(self.view).offset(-30);
+        make.bottom.equalTo(self.view).offset(-30);
         make.centerX.equalTo(self.view);
-        make.leadingMargin.equalTo(self.view).offset(16);
+        make.left.equalTo(self.view).offset(16);
         make.height.equalTo(50);
     }];</string>
 	<key>IDECodeSnippetIdentifier</key>
