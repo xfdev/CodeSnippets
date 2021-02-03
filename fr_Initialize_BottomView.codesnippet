@@ -9,14 +9,15 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>FRBottomButtonView *bottomView = [[FRBottomButtonView alloc] initWithTitle:@"submit" target:self action:@selector(clickSubmit)];
-    [self.view addSubview:bottomView];
-    [bottomView makeConstraints:^(MASConstraintMaker *make) {
-        make.bottom.equalTo(self.view).offset(-30);
-        make.centerX.equalTo(self.view);
-        make.left.equalTo(self.view).offset(16);
-        make.height.equalTo(50);
-    }];</string>
+	<string>UIButton *themeButton = [FRViewFactory themeButtonTitle:@"提交" target:self action:@selector(clickSubmit)];
+//self.themeButton.enabled = NO;
+[self.view addSubview:themeButton];
+[themeButton makeConstraints:^(MASConstraintMaker *make) {
+    make.bottom.equalTo(self.view.top).offset(SCREEN_HEIGHT/3*2);
+    make.centerX.equalTo(self.view);
+    make.left.equalTo(self.view).offset(40);
+    make.height.equalTo(44);
+}];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>C5F2FAC1-FD01-4527-8182-D9467A726683</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -24,7 +25,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>create LCBottomView</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>create bottomView</string>
+	<string>"FR" UIButton _themeButton from FRViewFactory</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

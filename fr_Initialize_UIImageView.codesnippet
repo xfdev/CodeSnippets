@@ -9,8 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UIImageView *&lt;#imageView#&gt; = [UIImageView new];
-    &lt;#imageView#&gt;.image = [UIImage imageNamed:&lt;#(nonnull NSString *)#&gt;];
+	<string>UIImageView *&lt;#imageView#&gt; = [FRViewFactory imageViewWithName:&lt;#(nullable NSString *)#&gt;];
     [self.contentView addSubview:&lt;#imageView#&gt;];
     [&lt;#imageView#&gt; makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(self.contentView);

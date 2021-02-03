@@ -3,21 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ppbool</string>
+	<string>ifava</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, assign) BOOL &lt;#aBool#&gt;; // .</string>
+	<string>if (@available(iOS 14.0, *)) {
+        
+    } else {
+        // Fallback on earlier versions
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>CC897E02-97AE-4475-86C7-6622606963A9</string>
+	<string>4EA3CE3C-5C37-4A5A-80AB-5B2304220243</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Add a property with BOOL.</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>"FR" property assign BOOL.</string>
+	<string>"FR" iOS Version @available</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

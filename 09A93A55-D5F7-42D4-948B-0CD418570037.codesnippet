@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ppbool</string>
+	<string>sss</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, assign) BOOL &lt;#aBool#&gt;; // .</string>
+	<string>make.size.equalTo(CGSizeMake(&lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;));</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>CC897E02-97AE-4475-86C7-6622606963A9</string>
+	<string>09A93A55-D5F7-42D4-948B-0CD418570037</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Add a property with BOOL.</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>"FR" property assign BOOL.</string>
+	<string>"FR" masonry make.size.equalTo()</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

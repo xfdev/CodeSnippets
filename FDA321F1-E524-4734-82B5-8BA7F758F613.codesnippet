@@ -16,6 +16,7 @@
     &lt;#self.textView#&gt;.delegate = self;
 //    self.textView.keyboardType = UIKeyboardTypeDefault;
     &lt;#self.textView#&gt;.returnKeyType = UIReturnKeyDone;
+    [self.contentView addSubview:&lt;#self.textView#&gt;];
     [&lt;#self.textView#&gt; makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self.contentView).insets(UIEdgeInsetsMake(6, 16, 0, 16));
         make.height.equalTo(100);

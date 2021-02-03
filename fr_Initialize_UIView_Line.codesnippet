@@ -10,7 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>UIView *&lt;#line#&gt; = [UIView new];
-    &lt;#line#&gt;.backgroundColor = LCColorBgLine;
+    &lt;#line#&gt;.backgroundColor = FRColorBgLine;
     [self.contentView addSubview:&lt;#line#&gt;];
     [&lt;#line#&gt; makeConstraints:^(MASConstraintMaker *make) {
         make.left.equalTo(self.contentView).offset(LCSpaceLeft);
