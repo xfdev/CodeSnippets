@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>deleteCell</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - cell 编辑
+- (BOOL)__canEditWithIndexPath:(NSIndexPath *)indexPath {
+    
+    return YES;
+}
+
+- (NSArray&lt;UITableViewRowAction *&gt; *)tableView:(UITableView *)tableView editActionsForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    BOOL canEdit = [self __canEditWithIndexPath:indexPath];
+    if (canEdit) {
+        
+//        UITableViewRowAction *editAction = [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleNormal title:@"编辑" handler:^(UITableViewRowAction * _Nonnull action, NSIndexPath * _Nonnull indexPath) {
+//            FRUserFolder *model = self.mArray[indexPath.row];
+//            if (self.clickCellBlock) {
+//                self.clickCellBlock(model, YES);
+//            }
+//        }];
+        
+        UITableViewRowAction *deleteRowAction = [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleDestructive title:@"删除"handler:^(UITableViewRowAction *action,NSIndexPath *indexPath) {
+            if (self.deleteBlock) {
+                self.deleteBlock(indexPath);
+            }
+        }];
+        return @[deleteRowAction/*, editAction*/];
+        
+    } else {
+        return nil;
+    }
+}
+// ios 11新增，替换上边的方法
+- (nullable UISwipeActionsConfiguration *)tableView:(UITableView *)tableView trailingSwipeActionsConfigurationForRowAtIndexPath:(NSIndexPath *)indexPath  API_AVAILABLE(ios(11.0)){
+    
+    BOOL canEdit = [self __canEditWithIndexPath:indexPath];
+    if (canEdit) {
+        
+//        UIContextualAction *editRowAction = [UIContextualAction contextualActionWithStyle:UIContextualActionStyleNormal title:@"编辑" handler:^(UIContextualAction * _Nonnull action, __kindof UIView * _Nonnull sourceView, void (^ _Nonnull completionHandler)(BOOL)) {
+//            FRUserFolder *model = self.mArray[indexPath.row];
+//            if (self.clickCellBlock) {
+//                self.clickCellBlock(model, YES);
+//            }
+//        }];
+        
+        UIContextualAction *deleteRowAction = [UIContextualAction contextualActionWithStyle:UIContextualActionStyleDestructive title:@"删除" handler:^(UIContextualAction * _Nonnull action, __kindof UIView * _Nonnull sourceView, void (^ _Nonnull completionHandler)(BOOL)) {
+            if (self.deleteBlock) {
+                self.deleteBlock(indexPath);
+            }
+        }];
+        
+        UISwipeActionsConfiguration *trailingSwipe = [UISwipeActionsConfiguration configurationWithActions:@[deleteRowAction]];
+        trailingSwipe.performsFirstActionWithFullSwipe = NO;// 进行全面轻扫以执行第一个动作
+        return trailingSwipe;
+    }
+    
+    return nil;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>AC69C3ED-18B9-4A6E-9DC5-ED86F7AD48C8</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>"FR" UITableView Delete/Edit Cell</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
