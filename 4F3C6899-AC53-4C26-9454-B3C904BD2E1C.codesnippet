@@ -3,29 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>line</string>
+	<string>fitiii</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UIView *lineView = [UIView new];
-lineView.backgroundColor = FRColorBgLine;
-    [self.contentView addSubview:lineView];
-    [lineView makeConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(self.contentView).offset(FRSpaceLeft);
-        make.right.equalTo(self.contentView).offset(FRSpaceRight);
-        make.bottom.equalTo(self.contentView);
-        make.height.equalTo(0.5);
+	<string>UIImageView *&lt;#imageView#&gt; = [FRViewFactory fitImageViewWithName:&lt;#(nullable NSString *)#&gt;];
+    [self.contentView addSubview:&lt;#imageView#&gt;];
+    [&lt;#imageView#&gt; makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(self.contentView);
+        make.left.equalTo(self.contentView);
+        make.size.equalTo(CGSizeMake(&lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;));
     }];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A31EE20F-2EA7-4127-9250-889F9CED093E</string>
+	<string>4F3C6899-AC53-4C26-9454-B3C904BD2E1C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Initialize an object with UIView.</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>"FR" UIView object with line.</string>
+	<string>"FR" fit UIImageView object </string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

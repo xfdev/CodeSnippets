@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ppw</string>
+	<string>sf</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, weak) id &lt;&lt;#protocol name#&gt;&gt; delegate;</string>
+	<string>[NSString stringWithFormat:@"%@", &lt;#...#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>37018804-65AB-4CE7-BEC6-CFB9E4CDE4C0</string>
+	<string>EC968986-F6C0-4EDD-B5D6-B7CD1F3A4832</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Add a property with delegate.</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>"FR" property weak delegate.</string>
+	<string>"FR" string Format</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,21 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ppw</string>
+	<string>pplayout</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, weak) id &lt;&lt;#protocol name#&gt;&gt; delegate;</string>
+	<string>@property (nonatomic, strong) UICollectionViewFlowLayout *layout; // 布局.
+@property (nonatomic, strong) UICollectionView *collectionView; // view.</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>37018804-65AB-4CE7-BEC6-CFB9E4CDE4C0</string>
+	<string>80026D23-8B41-4D74-98A5-D10FAE167FE5</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Add a property with delegate.</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>"FR" property weak delegate.</string>
+	<string>"FR" property UICollectionView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

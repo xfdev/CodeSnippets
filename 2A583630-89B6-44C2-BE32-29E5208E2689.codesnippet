@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>self.&lt;#button#&gt; = [FRViewFactory imageButtonWithNormal:&lt;#(nonnull NSString *)#&gt; selected:&lt;#(nullable NSString *)#&gt; target:self action:&lt;#(nonnull SEL)#&gt;];
+	<string>self.&lt;#button#&gt; = [FRViewFactory imageButtonWithNormal:&lt;#(nonnull NSString *)#&gt; selected:&lt;#(nullable NSString *)#&gt; target:self action:@selector(&lt;#selector#&gt;)];
     [self.contentView addSubview:&lt;#button#&gt;];
     [&lt;#button#&gt; makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(self.contentView);

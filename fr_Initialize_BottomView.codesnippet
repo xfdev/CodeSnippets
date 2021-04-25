@@ -13,7 +13,7 @@
 //self.themeButton.enabled = NO;
 [self.view addSubview:themeButton];
 [themeButton makeConstraints:^(MASConstraintMaker *make) {
-    make.bottom.equalTo(self.view.top).offset(SCREEN_HEIGHT/3*2);
+    make.bottom.equalTo(self.view.fr_mas_autoBottom).offset(-10);
     make.centerX.equalTo(self.view);
     make.left.equalTo(self.view).offset(40);
     make.height.equalTo(44);

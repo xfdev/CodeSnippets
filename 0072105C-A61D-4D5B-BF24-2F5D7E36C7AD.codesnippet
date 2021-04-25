@@ -6,7 +6,7 @@
 	<string>textFieldFR</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>&lt;#_textField#&gt; = [FRViewFactory textFieldWithPlaceholder:&lt;#(nullable NSString *)#&gt; font:&lt;#(CGFloat)#&gt; color:FRColor&lt;#Hex()#&gt; delegate:&lt;#(nullable id&lt;UITextFieldDelegate&gt;)#&gt;];

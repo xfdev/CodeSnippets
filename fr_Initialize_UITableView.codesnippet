@@ -9,19 +9,15 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    self.tableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
-    self.tableView.delegate = self;
-    self.tableView.dataSource = self;
-    self.tableView.estimatedRowHeight = &lt;#CGFloat#&gt;;
-    self.tableView.tableFooterView = [UIView new];
-    //self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;// 默认线
-    [self.view addSubview:self.tableView];
-    
-    [self.tableView registerClass:&lt;#(nullable Class)#&gt; forCellReuseIdentifier:&lt;#(nonnull NSString *)#&gt;];
+	<string>self.tableView = [FRViewFactory tableViewDelegate:self estimatedHeight:&lt;#(CGFloat)#&gt;];
+//self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;// 不使用分割线
+[self.view addSubview:self.tableView];&lt;UITableViewDelegate, UITableViewDataSource&gt;
 
-    [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.equalTo(self.view);
-    }];</string>
+[self.tableView registerClass:&lt;#(nullable Class)#&gt; forCellReuseIdentifier:&lt;#(nonnull NSString *)#&gt;];
+
+[self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
+    make.edges.equalTo(self.view);
+}];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>95E8975C-7853-4D55-96EA-8F3029E41E23</string>
 	<key>IDECodeSnippetLanguage</key>

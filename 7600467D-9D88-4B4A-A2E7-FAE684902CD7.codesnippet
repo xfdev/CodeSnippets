@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ccc</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>CGFloat w = (SCREEN_WIDTH-15*4)/3;
+    CGFloat h = 160;
+    
+    self.layout = [[UICollectionViewFlowLayout alloc] init];
+    self.layout.minimumLineSpacing = 15;
+    self.layout.minimumInteritemSpacing = 5;
+    self.layout.itemSize = CGSizeMake(w, h);
+    self.layout.sectionInset = UIEdgeInsetsMake(20, 15, 30, 15);
+    //self.layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;// 改为横向滑动（默认纵向）
+    
+    self.collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:self.layout];
+    self.collectionView.delegate = self;&lt;UICollectionViewDelegate, UICollectionViewDataSource&gt;
+    self.collectionView.dataSource = self;
+    self.collectionView.backgroundColor = FRColorSystemWhite;
+    [self.view addSubview:self.collectionView];
+    
+    [self.collectionView registerClass:&lt;#(nullable Class)#&gt; forCellWithReuseIdentifier:&lt;#(nonnull NSString *)#&gt;];
+    [self.collectionView registerClass:&lt;#(nullable Class)#&gt; forSupplementaryViewOfKind:UICollectionElementKindSection&lt;#Header#&gt; withReuseIdentifier:&lt;#(nonnull NSString *)#&gt;];
+    
+    [self.collectionView makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self.view);
+    }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7600467D-9D88-4B4A-A2E7-FAE684902CD7</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>"FR" UICollectionView object with self.collectionView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
