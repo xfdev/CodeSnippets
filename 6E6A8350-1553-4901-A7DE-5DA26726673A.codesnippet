@@ -3,28 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>iii</string>
+	<string>LLL-macOS</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UIImageView *&lt;#imageView#&gt; = [FRViewFactory imageViewWithName:&lt;#(nullable NSString *)#&gt;];
-    [self.contentView addSubview:&lt;#imageView#&gt;];
-    [&lt;#imageView#&gt; makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(self.contentView);
-        make.left.equalTo(self.contentView);
+	<string>&lt;#NSTextField *label#&gt; = [CSTLabel label:&lt;#(nullable NSString *)#&gt; font:&lt;#(CGFloat)#&gt; textColor:&lt;#(nonnull NSColor *)#&gt;];
+    [self.view addSubview:&lt;#label#&gt;];
+    [&lt;#label#&gt; makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(self.view);
+        make.left.equalTo(self.view);
+        make.right.equalTo(self.view);
     }];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>335B65CA-6D92-408F-913E-A9D215479342</string>
+	<string>6E6A8350-1553-4901-A7DE-5DA26726673A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
+	<string>macosx</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Initialize an object with UIImageView.</string>
+	<string>macOS</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>"FR" UIImageView object with _imageView.</string>
+	<string>macOS "FR" Label object .</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

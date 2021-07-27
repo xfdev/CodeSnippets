@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>initWithFrame:</string>
+	<string>initWithFra-iOS</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -26,10 +26,12 @@
 	<string>3B05EE49-CE43-41A8-8A58-2B3E0529285F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>Initialize an object and -viewInstance Method from a CGRect.</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>"FR" -initWithFrame: Method.</string>
+	<string>iOS "FR" -initWithFrame: Method.</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -22,10 +22,12 @@
 	<string>C5F2FAC1-FD01-4527-8182-D9467A726683</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>create LCBottomView</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>"FR" UIButton _themeButton from FRViewFactory</string>
+	<string>iOS "FR" UIButton _themeButton from FRViewFactory</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

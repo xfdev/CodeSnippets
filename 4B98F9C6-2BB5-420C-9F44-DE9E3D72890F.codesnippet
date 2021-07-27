@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>weaself</string>
+	<string>mTop</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>cst_weakify(self);</string>
+	<string>make.top.equalTo(self.view);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D024C829-5841-4400-AA13-DCBAB504F711</string>
+	<string>4B98F9C6-2BB5-420C-9F44-DE9E3D72890F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>"FR" @weakify(self) My Code Snippet</string>
+	<string>"FR" make.top.equalTo(self.view);</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

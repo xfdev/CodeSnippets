@@ -3,28 +3,44 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>iii</string>
+	<string>initWithFra</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UIImageView *&lt;#imageView#&gt; = [FRViewFactory imageViewWithName:&lt;#(nullable NSString *)#&gt;];
-    [self.contentView addSubview:&lt;#imageView#&gt;];
-    [&lt;#imageView#&gt; makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(self.contentView);
-        make.left.equalTo(self.contentView);
-    }];</string>
+	<string>- (instancetype)initWithFrame:(NSRect)frame {
+    self = [super initWithFrame:frame];
+    if (self) {
+        [self viewInstance];
+    }
+    return self;
+}
+
+- (instancetype)initWithCoder:(NSCoder *)coder {
+    self = [super initWithCoder:coder];
+    if (self) {
+        [self viewInstance];
+    }
+    return self;
+}
+
+
+- (void)viewInstance {
+    
+    
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>335B65CA-6D92-408F-913E-A9D215479342</string>
+	<string>19AB06B2-DB2E-4B90-BDBA-5EE669564E98</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
+	<string>macosx</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Initialize an object with UIImageView.</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>"FR" UIImageView object with _imageView.</string>
+	<string>macOS "FR" -initWithFrame: Method.</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

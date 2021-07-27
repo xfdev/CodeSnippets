@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>initWithStyle:</string>
+	<string>initWithStyle:-iOS</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -27,10 +27,12 @@
 	<string>88B3920C-F9B2-4269-86FE-B768FA215BBA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>Initialize an object and -viewInstance Method from some params.</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>"FR" -initWithStyle: Method.</string>
+	<string>iOS "FR" -initWithStyle: Method.</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

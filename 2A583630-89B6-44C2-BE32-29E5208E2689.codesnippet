@@ -18,10 +18,12 @@
 	<string>2A583630-89B6-44C2-BE32-29E5208E2689</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>"FR" UIButton _imageButton From FRViewFactory</string>
+	<string>iOS "FR" UIButton _imageButton From FRViewFactory</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>bgScroll</string>
+	<string>bgScroll-iOS</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
@@ -33,7 +33,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>create UIScrollView &amp;&amp; UIView</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>"FR" create UIScrollView bgView.</string>
+	<string>iOS "FR" create UIScrollView bgView.</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
